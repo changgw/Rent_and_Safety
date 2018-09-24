@@ -32,8 +32,8 @@ export default function main() {
 
   function serverAuth(callback) {
     post('https://www.arcgis.com/sharing/rest/generateToken', {
-      username: 'adel.shahrezaei_Timmons_Group',
-      password: 'mamal65serenti',
+      username: 'user',
+      password: 'pass',
       f: 'json',
       expiration: 86400,
       client: 'referer',
